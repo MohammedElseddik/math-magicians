@@ -1,14 +1,25 @@
 import './calculator.css';
 import React from 'react';
+import calculate from '../logic/calculate';
+
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.clearNumbers = this.clearNumbers.bind(this);
+  }
+  // eslint-disable-next-line
+  clearNumbers(btnValue = 'AC') {
+    calculate(btnValue);
+  }
+
   render() {
     return (
       <div className="container">
         <div className="calculator">
           <div className="row1 result">0</div>
           <div className="row2">
-            <button type="button" className="btn btn-gray">Ac</button>
+            <button type="button" className="btn btn-gray" onClick={this.clearNumbers}>AC</button>
             <button type="button" className="btn btn-gray">+/-</button>
             <button type="button" className="btn btn-gray">%</button>
             <button type="button" className="btn btn-orange">/</button>
