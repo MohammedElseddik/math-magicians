@@ -10,6 +10,7 @@ function Calculator() {
 
   return (
     <div className="container">
+      <h2>Let&apos;s do some math!</h2>
       <div className="calculator">
         <div className="row1 result">{state.next || state.total || 0}</div>
         <div className="row2">

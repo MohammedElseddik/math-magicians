@@ -13,7 +13,7 @@ html {
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin: 10rem 5rem;
 }
 
 .row1 {
@@ -67,7 +67,7 @@ html {
 }
 
 .btn {
-  width: 70px;
+  width: 130px;
   height: 70px;
   border: 1px solid rgb(208, 208, 208);
   cursor: pointer;
@@ -80,7 +80,7 @@ html {
 }
 
 .btn0 {
-  width: 140px;
+  width: 260px;
 }
 
 .btn-orange {
@@ -102,4 +102,8 @@ html {
 .btn-gray:active {
   background-color: rgb(129, 129, 129);
   color: #fff;
+}
+
+.container h2 {
+  width: 60%;
 }
