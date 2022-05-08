@@ -7,7 +7,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 ## Deployment
 
-(Link will be provided after finishing the project)
+https://math-magicians-mo.herokuapp.com/home
 
 ## Major Languages
 
